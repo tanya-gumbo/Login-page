@@ -1,0 +1,90 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/Other/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : 4 Jun 2024, 22:59:03
+    Author     : Tanya
+*/
+
+.scene{
+    -fx-background-color: #2f2f2f;
+}
+
+
+.exit-button{
+    -fx-background-color: #2f2f2f;
+    -fx-text-fill: white;
+    -fx-font-size: 20px;    
+    -fx-opacity: 0.75;
+    -fx-min-height: 45;
+    -fx-min-width: 48;
+}
+
+.exit-button:hover{
+    -fx-background-color: red;
+}
+
+.button-min{
+    -fx-background-color: #2f2f2f;
+    -fx-text-fill: white;
+    -fx-font-size: 20px;
+    -fx-opacity: 0.75;
+    -fx-min-height: 45;
+    -fx-min-width: 41;
+}
+
+.button-min:hover{
+    -fx-background-color:#36454F;
+}
+
+.button-max{
+    -fx-background-color: #2f2f2f;
+    -fx-text-fill: white;
+    -fx-font-size: 13px;
+    -fx-opacity: 0.75;
+    -fx-min-height: 45;
+    -fx-min-width: 48;
+}
+
+
+.button-max:hover{
+    -fx-background-color:#36454F;
+}
+
+.image-view{
+    -fx-scale-x: 0.75;
+    -fx-scale-y: 0.75;
+}
+
+.label-appName{
+    -fx-text-fill: white;
+    -fx-font-family:"Lucida Calligraphy";
+    -fx-font-size: 50;
+    -fx-padding: 5 10 10 1;
+}
+
+.label-general{
+    -fx-text-fill: white;
+    -fx-font-family: "Times New Roman";
+    -fx-font-size: 25;
+}
+
+.textfields{
+    -fx-background-color: #676767;
+    -fx-text-fill: white;
+    -fx-font-size: 25;
+    -fx-font-family: "Times New Roman";
+    
+}
+
+.button-login{
+    -fx-text-fill: white;
+    -fx-background-color: #2f2f2f;
+    -fx-font-family: "Times New Roman";
+    -fx-font-size: 25;
+}
+
+.button-login:hover{
+    -fx-background-color: #36454F;
+}
